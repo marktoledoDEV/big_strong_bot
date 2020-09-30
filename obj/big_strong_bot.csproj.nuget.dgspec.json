@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Work and Other Documents\\Projects\\big_strong_bot\\big_strong_bot.csproj": {}
+    "D:\\Work and Other Documents\\Projects\\big_strong_bot\\big_strong_bot.csproj": {}
   },
   "projects": {
-    "d:\\Work and Other Documents\\Projects\\big_strong_bot\\big_strong_bot.csproj": {
+    "D:\\Work and Other Documents\\Projects\\big_strong_bot\\big_strong_bot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Work and Other Documents\\Projects\\big_strong_bot\\big_strong_bot.csproj",
+        "projectUniqueName": "D:\\Work and Other Documents\\Projects\\big_strong_bot\\big_strong_bot.csproj",
         "projectName": "big_strong_bot",
-        "projectPath": "d:\\Work and Other Documents\\Projects\\big_strong_bot\\big_strong_bot.csproj",
+        "projectPath": "D:\\Work and Other Documents\\Projects\\big_strong_bot\\big_strong_bot.csproj",
         "packagesPath": "C:\\Users\\Mark\\.nuget\\packages\\",
-        "outputPath": "d:\\Work and Other Documents\\Projects\\big_strong_bot\\obj\\",
+        "outputPath": "D:\\Work and Other Documents\\Projects\\big_strong_bot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
