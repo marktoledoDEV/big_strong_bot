@@ -11,3 +11,5 @@ D:\Work and Other Documents\Projects\big_strong_bot\obj\Debug\netcoreapp3.1\big_
 D:\Work and Other Documents\Projects\big_strong_bot\obj\Debug\netcoreapp3.1\big_strong_bot.dll
 D:\Work and Other Documents\Projects\big_strong_bot\obj\Debug\netcoreapp3.1\big_strong_bot.pdb
 D:\Work and Other Documents\Projects\big_strong_bot\obj\Debug\netcoreapp3.1\big_strong_bot.genruntimeconfig.cache
+D:\Work and Other Documents\Projects\big_strong_bot\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Work and Other Documents\Projects\big_strong_bot\obj\Debug\netcoreapp3.1\big_strong_bot.csproj.CopyComplete

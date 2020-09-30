@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+nAjkvjzT1uC7Mh/JERlqKYpjSgUy6mPwa6oKaIpvWmEMsPOsFpsVhkQKmoPme4law18OurgCESEaoySo2uZgw==",
+  "dgSpecHash": "gxNT+d9HGptEyFbv4JMO5f0h36zTHruVtjOvdCynGosmrvts8kRQI4K/a6pMD7bVPJEktFRahBdZdlcvfqoeiA==",
   "success": true,
   "projectFilePath": "D:\\Work and Other Documents\\Projects\\big_strong_bot\\big_strong_bot.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Mark\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
