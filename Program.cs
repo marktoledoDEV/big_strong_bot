@@ -5,6 +5,7 @@ using System.Net.Http.Headers;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace big_strong_bot
 {
@@ -31,7 +32,20 @@ namespace big_strong_bot
             var stringTask = HTTPCLIENT.GetStringAsync(test_uri);
 
             var msg = await stringTask;
-            Console.Write(msg);
+            Console.WriteLine(msg);
+
+            var updateRawJson = await HTTPCLIENT.GetAsync(test_uri);
+            if(!updateRawJson.IsSuccessStatusCode)
+            {
+                Console.WriteLine($"GetUpdate Failed. Status Code: {updateRawJson.StatusCode}");
+            }
+
+            Console.WriteLine($"GetUpdate was successful. Parsing JSON now");
+            dynamic updateList = JsonConvert.DeserializeObject(await updateRawJson.Content.ReadAsStringAsync());
+            foreach(var result in updateList["result"]){
+                string update_id = result["update_id"];
+                Console.WriteLine($"Sample Update ID: {update_id}");
+            }
         }
     }
 }
